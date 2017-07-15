@@ -1,0 +1,100 @@
+  ML_Project1.Form1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ML_Project1, Version=1.0.*, Culture=不因語言而異 (不因國別而異): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class ML_Project1.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Drawing.Bitmap myBitmap : Public
+    System.Drawing.Graphics g : Public
+    System.Drawing.Brush bshDraw : Public
+    System.Drawing.Pen penDraw : Public
+    System.String Filename1 : Public
+    Byte PointSize : Public
+    Byte PointSize1 : Public
+    Byte PointSize2 : Public
+    Byte Distribution : Public
+    pData* InputData : Public
+    Double Pi : Public
+    Double CenterX : Public
+    Double CenterY : Public
+    Int32 ClassKind : Public
+    Int32 MethodCodeValue : Public
+    Int32 NumberOfData : Public
+    Int32 NumberOfPoint : Public
+    Int32 MaxSizeOfData : Public
+    Int32 imW : Public
+    Int32 imH : Public
+    Int32 X_Cur : Public
+    Int32 Y_Cur : Public
+    Int32 RangeX : Public
+    Int32 RangeY : Public
+    Int32 NumOfCluster : Public
+    Int32 NumOfClass : Public
+    Int32 NumClass1 : Public
+    Int32 NumClass2 : Public
+    Boolean HandFlag : Public
+    Double MeanX1 : Public
+    Double MeanY1 : Public
+    Double Sigma2X1 : Public
+    Double Sigma2Y1 : Public
+    Double SigmaX1 : Public
+    Double SigmaY1 : Public
+    Double SigmaXY1 : Public
+    Double detA1 : Public
+    Double Correlation1 : Public
+    Double Correlation12 : Public
+    Double PClass1 : Public
+    Double* PxyClass1 : Public
+    Double MeanX2 : Public
+    Double MeanY2 : Public
+    Double Sigma2X2 : Public
+    Double Sigma2Y2 : Public
+    Double SigmaX2 : Public
+    Double SigmaY2 : Public
+    Double SigmaXY2 : Public
+    Double detA2 : Public
+    Double Correlation2 : Public
+    Double Correlation22 : Public
+    Double PClass2 : Public
+    Double* PxyClass2 : Public
+    Double LR_a1 : Public
+    Double LR_a0 : Public
+    Double** A : Public
+    Double* B : Public
+    Double* NLcoef : Public
+    Int32 NLdegree : Public
+  Methods:
+    ClassToColor(Int32): PrivateScope, Public, HideBySig
+    ClassToPenColor(Int32): PrivateScope, Public, HideBySig
+    NewPublicVariables(Int32): PrivateScope, Public, HideBySig
+    DeletePublicVariables(UInt16): PrivateScope, Public, HideBySig
+    Sgn(Double): PrivateScope, Public, HideBySig
+    CalculateMeanSigma2(): PrivateScope, Public, HideBySig
+    evalPxy1(pData): PrivateScope, Public, HideBySig
+    evalPxy2(pData): PrivateScope, Public, HideBySig
+    CalculateBayesianProb(): PrivateScope, Public, HideBySig
+    BayesMAP(): PrivateScope, Public, HideBySig
+    GaussEliminationPivot(Int32): PrivateScope, Public, HideBySig
+    LinearRegression(): PrivateScope, Public, HideBySig
+    LinearRegressionLn(): PrivateScope, Public, HideBySig
+    NonlinearRegression(Int32): PrivateScope, Public, HideBySig
